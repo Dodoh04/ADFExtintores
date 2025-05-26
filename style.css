@@ -15,6 +15,14 @@ header {
   flex-wrap: wrap;
   justify-content: center;  
 }
+.corpo{
+  margin: 0 auto;
+  background-image: url(./img/adfFundo2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  background-attachment: fixed;
+}
 
 .logo {
   max-width: 200px;
@@ -79,14 +87,18 @@ section {
   flex-wrap: wrap;
 }
 
+.products h2{
+  width: 100%;
+}
+
 .card {
   border: 1px solid #ddd;
   padding: 1rem;
   border-radius: 8px;
-  width: 200px;
+  width: auto;
   background-color: #fafafa;
-}
-
+ }
+/*
 .card h3 {
   margin: 1rem 0;
 }
@@ -99,6 +111,9 @@ section {
   width: 100%;
   cursor: pointer;
   border-radius: 4px;
+}*/
+.card img{
+  border-radius: 9px;
 }
 
 .why-choose {
@@ -106,6 +121,9 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
+}
+.why-choose h2{
+  width: 100%;
 }
 
 .why-choose .item {
