@@ -1,0 +1,146 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #c8102e;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
+
+.logo {
+  max-width: 200px;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+header button {
+  background: #fff;
+  color: #c8102e;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 4px;
+
+}
+
+header button:hover{
+  background: ;
+  color: #000;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.header {
+ 
+}
+
+.header img {
+  width: 200px;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-left: -40px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+.services-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 2;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 200px;
+  background-color: #fafafa;
+}
+
+.card h3 {
+  margin: 1rem 0;
+}
+
+.card button {
+  background-color: #c8102e;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.why-choose {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.why-choose .item {
+  width: 200px;
+}
+
+.why-choose img {
+  height: 50px;
+}
+
+.testimonial {
+  background-color: #f8f8f8;
+  font-style: italic;
+  padding: 2rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  padding: 12px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+  transition: transform 0.3s;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
