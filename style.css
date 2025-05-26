@@ -7,26 +7,21 @@ body {
 }
 
 header {
-  background-color: #c8102e;
-  color: #fff;
+  color: #f22;
   padding: 2rem;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;  
+  justify-content: center;
 }
-.corpo{
+
+
+.corpo {
   margin: 0 auto;
-  background-image: url(./img/adfFundo2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 70%;
   background-attachment: fixed;
-}
-
-.logo {
-  max-width: 200px;
-  margin-bottom: 1rem;
 }
 
 header h1 {
@@ -34,8 +29,8 @@ header h1 {
 }
 
 header button {
-  background: #fff;
-  color: #c8102e;
+  background: #c8102e;
+  color: #fff;
   border: none;
   padding: 0.75rem 1.5rem;
   font-weight: bold;
@@ -45,9 +40,9 @@ header button {
 
 }
 
-header button:hover{
-  background: ;
-  color: #000;
+header button:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 section {
@@ -55,9 +50,6 @@ section {
   text-align: center;
 }
 
-.header {
- 
-}
 
 .header img {
   width: 200px;
@@ -72,12 +64,28 @@ section {
   font-size: 1.1rem;
 }
 
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 50vh;
+}
+
 .services-list {
+  color: #f22;
+  margin: 0 auto;
   list-style: none;
   padding: 0;
   font-size: 1.1rem;
   font-weight: 500;
   line-height: 2;
+}
+
+.services-list li {
+  display: inline;
+  margin-right: 50px;
+
 }
 
 .products {
@@ -87,7 +95,7 @@ section {
   flex-wrap: wrap;
 }
 
-.products h2{
+.products h2 {
   width: 100%;
 }
 
@@ -97,7 +105,8 @@ section {
   border-radius: 8px;
   width: auto;
   background-color: #fafafa;
- }
+}
+
 /*
 .card h3 {
   margin: 1rem 0;
@@ -112,7 +121,7 @@ section {
   cursor: pointer;
   border-radius: 4px;
 }*/
-.card img{
+.card img {
   border-radius: 9px;
 }
 
@@ -122,7 +131,8 @@ section {
   justify-content: center;
   gap: 2rem;
 }
-.why-choose h2{
+
+.why-choose h2 {
   width: 100%;
 }
 
@@ -154,7 +164,7 @@ footer {
   background-color: #25d366;
   padding: 12px;
   border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 1000;
   transition: transform 0.3s;
 }
