@@ -1,174 +1,140 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #fff;
-  color: #333;
+
+    width: 1500px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
 
 header {
-  color: #f22;
-  padding: 2rem;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    color: #f22;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-
-.corpo {
-  margin: 0 auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 70%;
-  background-attachment: fixed;
+.header img {
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 0;
 }
 
-header h1 {
-  margin-bottom: 0.5rem;
+.services-list {
+    color: #f22;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.services-list li {
+    display: inline;
+    margin-right: 50px;
+
 }
 
 header button {
-  background: #c8102e;
-  color: #fff;
-  border: none;
-  padding: 0.75rem 1.5rem;
-  font-weight: bold;
-  cursor: pointer;
-  margin-top: 1rem;
-  border-radius: 4px;
+    background: #c8102e;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 4px;
 
 }
 
 header button:hover {
-  background-color: #000;
-  color: #fff;
-}
-
-section {
-  padding: 2rem;
-  text-align: center;
-}
-
-
-.header img {
-  width: 200px;
-  border-radius: 15px;
-  margin-right: 20px;
-  margin-left: -40px;
-}
-
-.about p {
-  max-width: 700px;
-  margin: auto;
-  font-size: 1.1rem;
-}
-
-.logo {
-  text-align: center;
-}
-
-.logo img {
-  width: 50vh;
-}
-
-.services-list {
-  color: #f22;
-  margin: 0 auto;
-  list-style: none;
-  padding: 0;
-  font-size: 1.1rem;
-  font-weight: 500;
-  line-height: 2;
-}
-
-.services-list li {
-  display: inline;
-  margin-right: 50px;
-
+    background-color: #000;
+    color: #fff;
 }
 
 .products {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
 }
 
 .products h2 {
-  width: 100%;
+    width: 100%;
 }
 
 .card {
-  border: 1px solid #ddd;
-  padding: 1rem;
-  border-radius: 8px;
-  width: auto;
-  background-color: #fafafa;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    width: auto;
+    background-color: #fafafa;
 }
 
-/*
-.card h3 {
-  margin: 1rem 0;
-}
-
-.card button {
-  background-color: #c8102e;
-  color: #fff;
-  border: none;
-  padding: 0.5rem;
-  width: 100%;
-  cursor: pointer;
-  border-radius: 4px;
-}*/
-.card img {
-  border-radius: 9px;
+.about p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 1.1rem;
 }
 
 .why-choose {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+
 }
 
 .why-choose h2 {
-  width: 100%;
+    width: 100%;
 }
 
 .why-choose .item {
-  width: 200px;
+    width: 200px;
 }
 
 .why-choose img {
-  height: 50px;
+    height: 50px;
 }
 
 .testimonial {
-  background-color: #f8f8f8;
-  font-style: italic;
-  padding: 2rem;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1rem;
+    background-color: #f8f8f8;
+    font-style: italic;
+    padding: 2rem;
 }
 
 .whatsapp-float {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #25d366;
-  padding: 12px;
-  border-radius: 50%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  z-index: 1000;
-  transition: transform 0.3s;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    padding: 12px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    transition: transform 0.3s;
 }
 
 .whatsapp-float:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
 }
