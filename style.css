@@ -103,6 +103,13 @@ header button:hover {
     width: auto;
     background-color: #fafafa;
 }
+.card img{
+        height: 300px;
+}
+.card h3{
+    font-size: 15px;
+    Color: #000;
+}
 .about{
     background-color: #f22;
 }
@@ -166,7 +173,7 @@ footer {
 
 }
 .item:hover, .card:hover  {
-    opacity: 70%;
+    opacity: 95%;
 }
 
 @media (max-width: 1500px){
